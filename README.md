@@ -1,7 +1,5 @@
 # UARK Student Accommodation Platform 🏠
 
-![Banner Image](path_to_banner_image.jpg)
-
 ## Overview 📜
 The **UARK Student Accommodation Platform** is designed to streamline the housing experience for students at the University of Arkansas-Fayetteville. This platform serves as a one-stop solution, aiding both new and returning scholars in navigating the housing landscape of Fayetteville.
 
