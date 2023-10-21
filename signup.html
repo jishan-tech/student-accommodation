@@ -76,8 +76,17 @@ button:hover {
   }
 }
 </style>
-<body>
 
+<!-- Do not delete this extends the navbar -->
+<div id="navbar"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function(){
+        $("#navbar").load("navbar.html");
+    });
+</script>
+
+<body>
 <form action="/action_page.php" style="border:1px solid #ccc">
   <div class="container">
     <h1>Sign Up</h1>
@@ -108,11 +117,3 @@ button:hover {
 
 </body>
 </html>
-<!-- Do not delete this extends the navbar -->
-<div id="navbar"></div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(function(){
-        $("#navbar").load("navbar.html");
-    });
-</script>
