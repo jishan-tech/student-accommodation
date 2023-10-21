@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accommodation Listings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .listings-container {
+            display: flex;
+            overflow-x: auto;
+            justify-content: space-between;
+        }
+
+        .listing {
+            border: 1px solid #ccc;
+            padding: 10px;
+            flex: 0 0 30%;
+            margin-right: 1%;
+        }
+
+        .image-slider {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        .image-slider img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            transition: transform 0.5s ease;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .prev {
+            left: 0;
+        }
+
+        .next {
+            right: 0;
+        }
+
+        .add-listing-subsection {
+            margin-top: 20px;
+        }
+
+        .add-listing-heading {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .add-listing-text {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .add-listing-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .add-listing-button:hover {
+            background-color: #0056b3;
+        }
+
+        .page-heading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Page Heading -->
+<div class="page-heading">Listing</div>
+
+<!-- Display Accommodation Listings -->
+<div class="listings-container">
+    <div class="listing">
+        <h2>Property Type: Apartment</h2>
+        <!-- Image Slider for Apartment -->
+        <div class="image-slider">
+            <img src="apartment.jpg" alt="Apartment Image 1">
+            <img src="livingroom.jpg" alt="Apartment Image 2">
+            <img src="modernliving.jpg" alt="Apartment Image 3">
+        </div>
+        <p>Location: Downtown</p>
+        <p>Rent: $1200 per month</p>
+        <p>Availability: Immediate</p>
+        <p>Amenities: Gym, Pool</p>
+        <p>Address: 123 Main St</p>
+        <p>Proximity to School: 1 mile</p>
+        <p>Transportation: Bus stop nearby</p>
+        <p>Parking Availability: On-site parking</p>
+        <p>Pet-Friendly: Yes</p>
+        <p>Local Currency Pricing: $1,200 USD</p>
+        <p>Additional Fees/Taxes: $100</p>
+        <p>Number of Bedrooms: 2</p>
+        <p>Square Footage: 1000 sq ft</p>
+        <p>Status: Furnished</p>
+    </div>
+
+    <div class="listing">
+        <h2>Property Type: House</h2>
+        <!-- Image Slider for House -->
+        <div class="image-slider">
+            <img src="house1.jpg" alt="House Image 1">
+            <img src="house2.jpg" alt="House Image 2">
+            <img src="house3.jpg" alt="House Image 3">
+        </div>
+        <p>Location: Suburb</p>
+        <p>Rent: $1500 per month</p>
+        <p>Availability: October 1, 2023</p>
+        <p>Amenities: Garden</p>
+        <p>Address: 456 Elm St</p>
+        <p>Proximity to School: 2 miles</p>
+        <p>Transportation: Train station nearby</p>
+        <p>Parking Availability: Driveway</p>
+        <p>Pet-Friendly: No</p>
+        <p>Local Currency Pricing: $1,500 USD</p>
+        <p>Additional Fees/Taxes: $75</p>
+        <p>Number of Bedrooms: 3</p>
+        <p>Square Footage: 1500 sq ft</p>
+        <p>Status: Unfurnished</p>
+    </div>
+
+    <div class="listing">
+        <h2>Property Type: Dorm</h2>
+        <!-- Image Slider for Dorm -->
+        <div class="image-slider">
+            <img src="dorm1.jpg" alt="Dorm Image 1">
+            <img src="dorm2.jpg" alt="Dorm Image 2">
+            <img src="dorm3.jpg" alt="Dorm Image 3">
+        </div>
+        <p>Location: University Campus</p>
+        <p>Rent: $800 per month</p>
+        <p>Availability: August 15, 2023</p>
+        <p>Amenities: Shared kitchen, common areas</p>
+        <p>Address: 789 College Ave</p>
+        <p>Proximity to School: On-campus</p>
+        <p>Transportation: University shuttle</p>
+        <p>Parking Availability: Not available</p>
+        <p>Pet-Friendly: No</p>
+        <p>Local Currency Pricing: $800 USD</p>
+        <p>Additional Fees/Taxes: None</p>
+        <p>Number of Bedrooms: Shared</p>
+        <p>Square Footage: Shared</p>
+        <p>Status: Furnished</p>
+    </div>
+
+    <!-- Add more listing details as needed -->
+</div>
+
+<!-- Add space above the "Add a New Listing" link -->
+<div style="margin-top: 20px;"></div>
+
+<!-- Add a New Listing Subsection -->
+<div class="add-listing-subsection">
+    <div class="add-listing-heading">Post Property</div>
+    <div class="add-listing-text">Looking to rent to college students? Post your listings with us.</div>
+    <a href="add_listing.html" class="add-listing-button">Add a New Listing</a>
+</div>
+
+</body>
+</html>
