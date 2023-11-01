@@ -34,6 +34,59 @@
             padding: 10px;
             margin-bottom: 10px;
         }
+        /* Style for the button */
+        .new-thread-btn {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        /* Style for the pop-up form */
+        .form-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+        }
+
+        /* Add styles for the form inside the pop-up */
+        .form-container {
+            max-width: 300px;
+            padding: 10px;
+            background-color: white;
+        }
+
+        .form-container input[type=text] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        .form-container .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom:10px;
+            opacity: 0.8;
+        }
+
+        .form-container .cancel {
+            background-color: red;
+        }
     </style>
 </head>
 <!-- Do not delete this extends the navbar -->
@@ -68,7 +121,36 @@
         
         <!-- Add more categories and their posts as needed -->
         
-        <!-- Forum post form (for creating new threads) can be added here -->
+        <!-- Button to open the new thread form popup -->
+        <button class="new-thread-btn" onclick="openForm()">Create New Thread</button>
+
+        <!-- The popup form for creating a new thread -->
+        <div class="form-popup" id="newThreadForm">
+            <form action="/submitNewThread" class="form-container">
+                <h1>Create New Thread</h1>
+
+                <label for="title"><b>Title</b></label>
+                <input type="text" placeholder="Enter Title" name="title" required>
+
+                <label for="description"><b>Description</b></label>
+                <input type="text" placeholder="Enter Description" name="description" required>
+
+                <button type="submit" class="btn">Create</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+        
     </div>
+    <script>
+        // Function to open the new thread form
+        function openForm() {
+            document.getElementById("newThreadForm").style.display = "block";
+        }
+
+        // Function to close the new thread form
+        function closeForm() {
+            document.getElementById("newThreadForm").style.display = "none";
+        }
+    </script>
 </body>
 </html>
