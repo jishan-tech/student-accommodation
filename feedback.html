@@ -1,28 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Student Accommodation Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>University of Arkansas Housing FAQs</title>
 </head>
-<!-- Do not delete this extends the navbar -->
-<div id="navbar"></div>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(function(){
-        $("#navbar").load("navbar.html");
-    });
-</script>
-
-
 <body>
+    <header>
+        <h1>University of Arkansas Housing FAQs</h1>
+    </header>
+    <main>
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>1. How do I search for housing options?</h3>
+                <p>You can search for housing options by using our search feature. Enter your preferences, such as location, budget, and housing type, and browse the available listings.</p>
+            </div>
+            <div class="faq-item">
+                <h3>2. How do I create a listing for my property?</h3>
+                <p>To create a listing for your property, you need to sign up for an account, then go to the "List Your Property" section. Fill in the details of your property and upload photos to create a listing.</p>
+            </div>
+            <!-- Add more FAQ items as needed -->
+        </section>
+    </main>
+
     <h1>Student Accommodation Feedback</h1>
     <p>We value your feedback. Please share your thoughts with us:</p>
-    
+
     <form action="submit_feedback.php" method="post">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required><br><br>
 
-        <label for="email">Email:</label>
+        <label for "email">Email:</label>
         <input type="email" id="email" name="email" required><br><br>
 
         <label for="rating">Rating:</label>
