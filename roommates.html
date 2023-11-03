@@ -51,6 +51,56 @@
         button:hover {
             background-color: #9D2235;
         }
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+            padding-top: 60px;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto; /* 5% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* The Close Button */
+        .close-button {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close-button:hover,
+        .close-button:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 
@@ -68,6 +118,8 @@
 <section>
     <h2>Compatible Roommates</h2>
     <ul class="roommate-list">
+        <button id="myBtn">Set Roommate Preferences</button>
+        <ul class="roommate-list">
         <li>
             <h3>Jane Doe</h3>
             <p>Preferred Budget: $500 - $700</p>
@@ -100,6 +152,67 @@
         </li>
     </ul>
 </section>
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2>Set Your Roommate Preferences</h2>
+      <form id="preferencesForm">
+          <label for="budget">Preferred Budget:</label>
+          <input type="text" id="budget" name="budget" placeholder="$500 - $700"><br><br>
+          <label for="roomType">Looking for:</label>
+          <select id="roomType" name="roomType">
+              <option value="2-bedroom">2-bedroom apartment</option>
+              <option value="shared-room">Shared room in a house</option>
+              <option value="studio">Studio apartment</option>
+              <option value="private-room">Private room in shared apartment</option>
+              <option value="dormitory">Dormitory near college</option>
+          </select><br><br>
+          <button type="button" onclick="submitPreferences()">Submit Preferences</button>
+      </form>
+    </div>
+  
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close-button")[0];
+  
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+      modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  
+  // Dummy function to simulate form submission
+  function submitPreferences() {
+      // Here you would normally handle the form submission.
+      // For now, we'll just close the modal.
+      alert("Preferences set! (not really, but this is where it would happen)");
+      modal.style.display = "none";
+  }
+  </script>
+  
+  </body>
+  </html>
 </body>
 </html>
