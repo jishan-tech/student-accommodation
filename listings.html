@@ -1,3 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0; /* Set the left and right margins to 0 */
+  padding: 0;
+  box-sizing: border-box; /* This includes padding and border in the element's total width and height */
+}
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.property-link {
+  margin: 10px; /* Set a margin for all property listings */
+  text-decoration: none; /* Remove underline for links */
+  color: black !important; /* Set the text color to black */
+}
+
+.border {
+  border: 1px solid black;
+  padding: 10px;
+  width: 320px; /* Set a fixed width for all property listings */
+  height: 350px; /* Set a fixed height for all property listings */
+  position: relative;
+  cursor: pointer; /* Change cursor to a hand pointer */
+  transition: box-shadow 0.3s, transform 0.3s; /* Combine transitions into one line */
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+.text {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+ /* Center the text horizontally */
+.center-text {
+  text-align: center;
+}
+.walk-info {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.walk-symbol {
+  font-size: 20px;
+}
+/* Raise the box shadow and scale the element on hover */
+.property-link .border:hover {
+  box-shadow: 0 0 20px 5px lightblue; /* Adjust the values as needed to raise the shadow */
+  transform: scale(1.05); /* Adjust the scaling factor as needed */
+}
+
+</style>
+</head>
+
 <!-- Do not delete this extends the navbar -->
 <div id="navbar"></div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -6,3 +69,124 @@
         $("#navbar").load("navbar.html");
     });
 </script>
+
+<body>
+  <div class="center-text">
+    <h2>Explore Rentals in<span> Fayetteville, AR</span></h2>
+  </div>
+    
+    <div class="container">
+      <a href="Lofts.html" class="property-link"> <!-- Add the link to Property 1 page here -->
+        <div class="border">
+          <img src="apartment7.jpg" alt="Your Image">
+          <h3 class="text">South Yard Lofts</h3>
+          <p class="text">404 Streamside Bnd,<br />Fayetteville, AR 72701</p>
+          <p class="text">Studio - 2 Beds | $1,030 - $3,049</p>
+          <p class="text">Furnished, gym, pool, pet friendly</p>
+          <!-- Add walking symbol and distance to university here -->
+          <div class="walk-info">
+            <span class="walk-symbol">🚶</span> 1.5 miles to University
+        </div>
+        </div>
+      </a>
+      
+      <!-- Repeat for other property listings with appropriate links -->
+      <a href="Lofts.html" class="property-link">
+        <div class="border">
+          <img src="apartment1.jpg" alt="Your Image">
+          <h3 class="text">The Gables Apartments</h3>
+          <p class="text">1526 N Oakland Avenue,<br />Fayetteville, AR 72703</p>
+          <p class="text">Studio - 2 Beds | $1,030 - $3,049</p>
+          <p class="text">Unfurnished, gym, pool, pet friendly</p>
+          <div class="walk-info">
+            <span class="walk-symbol">🚶</span> 1.5 miles to University
+        </div>
+        </div>
+      </a>
+    
+      <a href="Lofts.html" class="property-link">
+        <div class="border">
+          <img src="apartment2.jpg" alt="Your Image">
+          <h3 class="text">Noble Oaks Apartments</h3>
+          <p class="text">775 W Trout Dr,<br />Fayetteville, AR 72703</p>
+          <p class="text">Studio - 2 Beds | $1,030 - $3,049</p>
+          <p class="text">Furnished, gym, pool, no pets allowed</p>
+          <div class="walk-info">
+            <span class="walk-symbol">🚶</span> 1.5 miles to University
+        </div>
+        </div>
+      </a>
+    
+      <a href="Lofts.html" class="property-link">
+        <div class="border">
+          <img src="kitchen.jpeg" alt="Your Image">
+          <h3 class="text">Fletcher St Townhouses</h3>
+          <p class="text">404 Streamside Bnd,<br />Fayetteville, AR 72701</p>
+          <p class="text">Studio - 2 Beds | $1,030 - $3,049</p>
+          <p class="text">Furnished, gym, pool, pet friendly</p>
+          <div class="walk-info">
+            <span class="walk-symbol">🚶</span> 1.5 miles to University
+        </div>
+        </div>
+      </a>
+    
+      
+      <!-- Add more property listings with links as needed -->
+    
+    </div>
+    <div class="container">
+      <a href="Lofts.html" class="property-link"> <!-- Add the link to Property 1 page here -->
+        <div class="border">
+          <img src="apartment4.jpg" alt="Your Image">
+          <h3 class="text">Lawson Square Townhouses</h3>
+          <p class="text">894 W Lawson St,<br />Fayetteville, AR 72701</p>
+          <p class="text">Studio - 2 Beds | $1,030 - $3,049</p>
+          <p class="text">Furnished, gym, pool, pet friendly, onsite laundry</p>
+          <div class="walk-info">
+            <span class="walk-symbol">🚶</span> 0.2 miles to University
+        </div>
+        </div>
+      </a>
+      
+      <!-- Repeat for other property listings with appropriate links -->
+      <a href="Lofts.html" class="property-link">
+        <div class="border">
+          <img src="bedroom.jpg" alt="Your Image">
+          <h3 class="text">Leverett Townhouses</h3>
+          <p class="text">1500 N Leverett Ave,<br />Fayetteville, AR 72701</p>
+          <p class="text">Studio - 2 Beds | $1,030 - $3,049</p>
+          <p class="text">Furnished, gym, pool, pet friendly</p>
+          <div class="walk-info">
+            <span class="walk-symbol">🚶</span> 0.5 miles to University
+        </div>
+        </div>
+      </a>
+    
+      <a href="Lofts.html" class="property-link">
+        <div class="border">
+          <img src="apartment6.jpg" alt="Your Image">
+          <h3 class="text">Cambridge Place Townhouses</h3>
+          <p class="text">891 Melmar Drive,<br />Fayetteville, AR 72701</p>
+          <p class="text">Studio - 2 Beds | $1,030 - $3,049</p>
+          <p class="text">Furnished, gym, pool, pet friendly, near bus stop</p>
+          <div class="walk-info">
+            <span class="walk-symbol">🚶</span> 0.5 miles to University
+        </div>
+        </div>
+      </a>
+    
+      <a href="Lofts.html" class="property-link">
+        <div class="border">
+          <img src="bedroom.jpg" alt="Your Image">
+          <h3 class="text">Deldon Apartments</h3>
+          <p class="text">1322 & 1406 N Garland,<br />Fayetteville, AR 72703</p>
+          <p class="text">Studio - 2 Beds | $1,030 - $3,049</p>
+          <p class="text">Furnished, gym, pool, pet friendly, near bus stop</p>
+          <div class="walk-info">
+            <span class="walk-symbol">🚶</span> 1.5 miles to University
+        </div>
+        </div>
+      </a>
+    
+    </body>
+    </html>
