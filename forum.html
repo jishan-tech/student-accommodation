@@ -87,6 +87,14 @@
         .form-container .cancel {
             background-color: red;
         }
+        .report-button {
+      background-color: red;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
     </style>
 </head>
 <!-- Do not delete this extends the navbar -->
@@ -109,12 +117,14 @@
             <p>Posted by: John Doe</p>
             <p>Date: October 15, 2023</p>
             <p>I'm looking for a roommate to share a 2-bedroom apartment near campus. If interested, please reply to this thread.</p>
+            <button class="report-button" onclick="confirmReport('post1')">Report</button>
         </div>
         <div class="forum-post">
             <h3>Available Apartment for Rent</h3>
             <p>Posted by: Jane Smith</p>
             <p>Date: October 5, 2023</p>
             <p>I have a single bedroom apartment available for rent starting in March. Contact me for details.</p>
+            <button class="report-button" onclick="confirmReport('post1')">Report</button>
         </div>
         
         <!-- Add more forum posts within this category here -->
@@ -151,6 +161,14 @@
         function closeForm() {
             document.getElementById("newThreadForm").style.display = "none";
         }
+        function confirmReport(postId) {
+      var confirmReport = confirm("Are you sure you want to report this post?");
+      if (confirmReport) {
+        // Here you can perform actions like sending the report to the server
+        alert("Post with ID " + postId + " reported successfully!");
+        // Replace the alert with actual reporting functionality (e.g., AJAX request)
+      }
+    }
     </script>
 </body>
 </html>
