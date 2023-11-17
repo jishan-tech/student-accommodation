@@ -124,31 +124,31 @@
             <h3>Jane Doe</h3>
             <p>Preferred Budget: $500 - $700</p>
             <p>Looking for: 2-bedroom apartment near campus</p>
-            <button>Contact Jane</button>
+            <button onclick="downloadVCard('Jane Doe', 'jane.doe@example.com', '123-456-7890')">Contact Jane</button>
         </li>
         <li>
             <h3>John Smith</h3>
             <p>Preferred Budget: $600 - $800</p>
             <p>Looking for: Shared room in a house</p>
-            <button>Contact John</button>
+            <button onclick="downloadVCard('Jane Doe', 'John.smith@example.com', '123-456-7890')">Contact John</button>
         </li>
         <li>
             <h3>Emily Johnson</h3>
             <p>Preferred Budget: $450 - $600</p>
             <p>Looking for: Studio apartment</p>
-            <button>Contact Emily</button>
+            <button onclick="downloadVCard('Jane Doe', 'emily.johnson@example.com', '123-456-7890')">Contact Emily</button>
         </li>
         <li>
             <h3>Robert Brown</h3>
             <p>Preferred Budget: $550 - $750</p>
             <p>Looking for: Private room in shared apartment</p>
-            <button>Contact Robert</button>
+            <button onclick="downloadVCard('Jane Doe', 'robert.brown@example.com', '123-456-7890')">Contact Robert</button>
         </li>
         <li>
             <h3>Rebecca White</h3>
             <p>Preferred Budget: $500 - $650</p>
             <p>Looking for: Dormitory near college</p>
-            <button>Contact Rebecca</button>
+            <button onclick="downloadVCard('Jane Doe', 'rebecca.white@example.com', '123-456-7890')">Contact Rebecca</button>
         </li>
     </ul>
 </section>
@@ -175,7 +175,24 @@
     </div>
   
   </div>
-  
+  <script>
+    function downloadVCard(name, email, phone) {
+        var vCardData = 'BEGIN:VCARD\n';
+        vCardData += 'VERSION:3.0\n';
+        vCardData += 'FN:' + name + '\n';
+        vCardData += 'EMAIL:' + email + '\n';
+        vCardData += 'TEL;TYPE=CELL:' + phone + '\n';
+        vCardData += 'END:VCARD';
+
+        var blob = new Blob([vCardData], { type: 'text/vcard;charset=utf-8;' });
+        var downloadLink = document.createElement("a");
+        downloadLink.href = window.URL.createObjectURL(blob);
+        downloadLink.setAttribute("download", name.replace(" ", "_") + "_Contact.vcf");
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+    }
+</script>
   <script>
   // Get the modal
   var modal = document.getElementById("myModal");
