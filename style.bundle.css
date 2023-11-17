@@ -1527,7 +1527,7 @@ td,th {
 }
 
 .datepicker td.day:hover {
-    background: #77b800;
+    background: #9D2235;
     color: #fff;
     cursor: pointer
 }
@@ -1546,7 +1546,7 @@ td,th {
 
 .datepicker td.active,.datepicker td.active:hover {
     color: #fff;
-    background-color: #77b800
+    background-color: #9D2235
 }
 
 .datepicker td.range {
@@ -1561,7 +1561,7 @@ td,th {
 
 .datepicker td.active {
     color: #fff;
-    background-color: #77b800
+    background-color: #9D2235
 }
 
 .datepicker td span {
@@ -1584,12 +1584,12 @@ td,th {
 }
 
 .datepicker td span:hover {
-    background: #77b800;
+    background: #9D2235;
     color: #fff
 }
 
 .datepicker td span.active {
-    background-color: #77b800;
+    background-color: #9D2235;
     color: #fff
 }
 
@@ -1603,7 +1603,7 @@ td,th {
 }
 
 .datepicker th.next,.datepicker th.prev {
-    color: #77b800
+    color: #9D2235
 }
 
 .datepicker th.next:before {
@@ -1623,7 +1623,7 @@ td,th {
 }
 
 .datepicker th.close a {
-    color: #77b800
+    color: #9D2235
 }
 
 .datepicker thead tr:first-child th {
@@ -1754,7 +1754,7 @@ td,th {
 
 .datepickerV2 table tr td.day.focused,.datepickerV2 table tr td.day:hover {
     cursor: pointer;
-    border: 1px solid #427b01;
+    border: 1px solid #9D2235;
     border-radius: 4px
 }
 
@@ -1848,14 +1848,14 @@ td,th {
 }
 
 .datepickerV2 table tr td.active,.datepickerV2 table tr td.active:hover,.datepickerV2 table tr td.active.disabled,.datepickerV2 table tr td.active.disabled:hover {
-    background-color: #478500;
+    background-color: #9D2235;
     color: #fff;
     border: 0 solid #fff;
     border-radius: 4px
 }
 
 .datepickerV2 table tr td.active:hover,.datepickerV2 table tr td.active:hover:hover,.datepickerV2 table tr td.active.disabled:hover,.datepickerV2 table tr td.active.disabled:hover:hover,.datepickerV2 table tr td.active:active,.datepickerV2 table tr td.active:hover:active,.datepickerV2 table tr td.active.disabled:active,.datepickerV2 table tr td.active.disabled:hover:active,.datepickerV2 table tr td.active.active,.datepickerV2 table tr td.active:hover.active,.datepickerV2 table tr td.active.disabled.active,.datepickerV2 table tr td.active.disabled:hover.active,.datepickerV2 table tr td.active.disabled,.datepickerV2 table tr td.active:hover.disabled,.datepickerV2 table tr td.active.disabled.disabled,.datepickerV2 table tr td.active.disabled:hover.disabled,.datepickerV2 table tr td.active[disabled],.datepickerV2 table tr td.active:hover[disabled],.datepickerV2 table tr td.active.disabled[disabled],.datepickerV2 table tr td.active.disabled:hover[disabled] {
-    background-color: #478500;
+    background-color: #9D2235;
     color: #fff
 }
 
@@ -1877,7 +1877,7 @@ td,th {
 }
 
 .datepickerV2 table tr td span:hover,.datepickerV2 table tr td span.focused {
-    background: #427b01;
+    background: #9D2235;
     color: #fff
 }
 
@@ -1888,11 +1888,11 @@ td,th {
 }
 
 .datepickerV2 table tr td span.active,.datepickerV2 table tr td span.active:hover,.datepickerV2 table tr td span.active.disabled,.datepickerV2 table tr td span.active.disabled:hover {
-    background-color: #427b01
+    background-color: #9D2235
 }
 
 .datepickerV2 table tr td span.active:hover,.datepickerV2 table tr td span.active:hover:hover,.datepickerV2 table tr td span.active.disabled:hover,.datepickerV2 table tr td span.active.disabled:hover:hover,.datepickerV2 table tr td span.active:active,.datepickerV2 table tr td span.active:hover:active,.datepickerV2 table tr td span.active.disabled:active,.datepickerV2 table tr td span.active.disabled:hover:active,.datepickerV2 table tr td span.active.active,.datepickerV2 table tr td span.active:hover.active,.datepickerV2 table tr td span.active.disabled.active,.datepickerV2 table tr td span.active.disabled:hover.active,.datepickerV2 table tr td span.active.disabled,.datepickerV2 table tr td span.active:hover.disabled,.datepickerV2 table tr td span.active.disabled.disabled,.datepickerV2 table tr td span.active.disabled:hover.disabled,.datepickerV2 table tr td span.active[disabled],.datepickerV2 table tr td span.active:hover[disabled],.datepickerV2 table tr td span.active.disabled[disabled],.datepickerV2 table tr td span.active.disabled:hover[disabled] {
-    background-color: #427b01;
+    background-color: #9D2235;
     color: #fff
 }
 
@@ -1923,7 +1923,7 @@ td,th {
 }
 
 .datepickerV2 .prev,.datepickerV2 .next {
-    color: #427b01;
+    color: #9D2235;
     font-size: larger
 }
 
@@ -2065,7 +2065,7 @@ a {
 }
 
 a:hover {
-    color: #77b800
+    color: #9D2235
 }
 
 a:active {
@@ -2073,7 +2073,7 @@ a:active {
 }
 
 a.action {
-    color: #77b800
+    color: #9D2235
 }
 
 a.action:hover {
@@ -2143,7 +2143,7 @@ button:focus {
     position: absolute;
     left: .0625rem;
     top: -.125rem;
-    color: #77b800
+    color: #9D2235
 }
 
 .primaryRadio:checked+label:after {
@@ -2210,7 +2210,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .buildingActiveIcon,.filterActiveIcon,.myPlacesActiveIcon,.savedSearchesActiveIcon,.sortActiveIcon {
-    color: #77b800
+    color: #9D2235
 }
 
 .shareIcon,.printerIcon,.mapIcon,.directionsIcon,.flagIcon {
@@ -2273,12 +2273,12 @@ h1,h2,h3,h4,h5,h6 {
 
 .selectDropdown .dropdownMenu.open li.selected a:focus {
     outline: none;
-    background-color: #77b800;
+    background-color: #9D2235;
     color: #fff
 }
 
 .selectDropdown .dropdownMenu.open li.selected a.hover {
-    background-color: #77b800;
+    background-color: #9D2235;
     color: #fff
 }
 
@@ -2290,7 +2290,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .selectDropdown .dropdownMenu.open a.hover {
-    background-color: #77b800;
+    background-color: #9D2235;
     color: #fff
 }
 
@@ -2302,7 +2302,7 @@ h1,h2,h3,h4,h5,h6 {
     display: inline-block;
     padding: .5em .5em;
     width: 100%;
-    background-color: #77b800;
+    background-color: #9D2235;
     color: #fff;
     outline: none
 }
@@ -2321,7 +2321,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .modals .modal .modalHeader h2 {
-    color: #77b800;
+    color: #9D2235;
     text-align: center;
     font-size: 1.24em;
     margin-bottom: 1.24em
@@ -2359,9 +2359,9 @@ h1,h2,h3,h4,h5,h6 {
 
 .modals .modalButtons a {
     padding: .4375em 1.5625em;
-    border: solid 1px #77b800;
+    border: solid 1px #9D2235;
     line-height: 1em;
-    color: #77b800;
+    color: #9D2235;
     margin-right: .625em;
     display: inline-block
 }
@@ -2372,7 +2372,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .modals .modalButtons a.primary:hover {
     background-color: #fff;
-    color: #77b800
+    color: #9D2235
 }
 
 .modals .modalButtons a:last-of-type {
@@ -2482,17 +2482,17 @@ h1,h2,h3,h4,h5,h6 {
     position: absolute;
     right: 0;
     top: 27px;
-    background: #77b800;
+    background: #9D2235;
     color: #fff;
-    border: 1px solid #77b800;
+    border: 1px solid #9D2235;
     font-size: 16px;
     line-height: 19px;
     padding: 10px 20px
 }
 
 .sub-header-global .primary-btn:hover {
-    background-color: #478500;
-    border: 1px solid #478500
+    background-color: #9D2235;
+    border: 1px solid #9D2235
 }
 
 .iframe-widget {
@@ -2813,7 +2813,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #mainFooter .footerLinks .showMore {
-    color: #77b800
+    color: #9D2235
 }
 
 #mainFooter .footerLinks .showMore:hover {
@@ -4800,7 +4800,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .apartmentsLogoStoryIllustration:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .apartmentsWhiteStoryIllustration:before {
@@ -5385,90 +5385,90 @@ body.mortar-wrapper {
 
 .mortar-wrapper .moneyStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .moneyStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .resourcesStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .resourcesStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .scalesStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .scalesStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .signatureStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .signatureStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .usersStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .usersStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .crossedArrowsStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .crossedArrowsStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .leaseStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .leaseStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .lockStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .lockStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouStoryIllustration .path1:before {
@@ -5485,7 +5485,7 @@ body.mortar-wrapper {
 .mortar-wrapper .aboutYouStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouStoryIllustration .path4:before {
@@ -5556,42 +5556,42 @@ body.mortar-wrapper {
 
 .mortar-wrapper .addOthersStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .addOthersStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .addOthersStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .addOthersStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .bankStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .bankStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .bankStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .consentStoryIllustration .path1:before {
@@ -5620,7 +5620,7 @@ body.mortar-wrapper {
 .mortar-wrapper .consentStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .consentStoryIllustration .path6:before {
@@ -5632,7 +5632,7 @@ body.mortar-wrapper {
 .mortar-wrapper .consentStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .frontDoorStoryIllustration .path1:before {
@@ -5655,7 +5655,7 @@ body.mortar-wrapper {
 .mortar-wrapper .frontDoorStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .frontDoorStoryIllustration .path5:before {
@@ -5672,24 +5672,24 @@ body.mortar-wrapper {
 .mortar-wrapper .incomeAndEmploymentStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .incomeAndEmploymentStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsStoryIllustration .path3:before {
@@ -5743,7 +5743,7 @@ body.mortar-wrapper {
 .mortar-wrapper .legalDocumentsStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsStoryIllustration .path12:before {
@@ -5754,13 +5754,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .myMediaStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaStoryIllustration .path3:before {
@@ -5771,7 +5771,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .newLeasesStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesStoryIllustration .path2:before {
@@ -5783,7 +5783,7 @@ body.mortar-wrapper {
 .mortar-wrapper .newLeasesStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesStoryIllustration .path4:before {
@@ -5825,19 +5825,19 @@ body.mortar-wrapper {
 .mortar-wrapper .newLeasesStoryIllustration .path10:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesStoryIllustration .path12:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesStoryIllustration .path13:before {
@@ -5849,7 +5849,7 @@ body.mortar-wrapper {
 .mortar-wrapper .newLeasesStoryIllustration .path14:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesStoryIllustration .path15:before {
@@ -5914,12 +5914,12 @@ body.mortar-wrapper {
 .mortar-wrapper .noAppsStoryIllustration .path10:before {
     content: "";
     margin-left: -1.00976562em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyStoryIllustration .path2:before {
@@ -5931,37 +5931,37 @@ body.mortar-wrapper {
 .mortar-wrapper .ollApplyStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyStoryIllustration .path9:before {
@@ -6015,7 +6015,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollApplyStoryIllustration .path17:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyStoryIllustration .path18:before {
@@ -6027,7 +6027,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollApplyStoryIllustration .path19:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsStoryIllustration .path1:before {
@@ -6038,25 +6038,25 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCardsStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsStoryIllustration .path6:before {
@@ -6068,7 +6068,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCardsStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsStoryIllustration .path8:before {
@@ -6092,18 +6092,18 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCardsStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollChatStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollChatStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollChatStoryIllustration .path3:before {
@@ -6132,7 +6132,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCreditScoreStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreStoryIllustration .path4:before {
@@ -6144,25 +6144,25 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCreditScoreStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreStoryIllustration .path9:before {
@@ -6185,7 +6185,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .OLL-LeaseStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .OLL-LeaseStoryIllustration .path2:before {
@@ -6197,7 +6197,7 @@ body.mortar-wrapper {
 .mortar-wrapper .OLL-LeaseStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .OLL-LeaseStoryIllustration .path4:before {
@@ -6209,18 +6209,18 @@ body.mortar-wrapper {
 .mortar-wrapper .OLL-LeaseStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .OLL-LeaseStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollListingStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollListingStoryIllustration .path2:before {
@@ -6238,35 +6238,35 @@ body.mortar-wrapper {
 .mortar-wrapper .ollListingStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollSupportStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollSupportStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .payWithCCStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .payWithCCStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .payWithCCStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .payWithCCStoryIllustration .path4:before {
@@ -6278,13 +6278,13 @@ body.mortar-wrapper {
 .mortar-wrapper .payWithCCStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .payWithCCStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .payWithCCStoryIllustration .path7:before {
@@ -6295,7 +6295,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .propertyGroupStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyGroupStoryIllustration .path2:before {
@@ -6307,12 +6307,12 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyGroupStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyHighlightStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyHighlightStoryIllustration .path2:before {
@@ -6324,18 +6324,18 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyHighlightStoryIllustration .path3:before {
     content: "";
     margin-left: -.91015625em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyPaymentStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyPaymentStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyPaymentStoryIllustration .path3:before {
@@ -6370,7 +6370,7 @@ body.mortar-wrapper {
 .mortar-wrapper .residentHistoryStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .residentHistoryStoryIllustration .path3:before {
@@ -6388,7 +6388,7 @@ body.mortar-wrapper {
 .mortar-wrapper .residentHistoryStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .residentHistoryStoryIllustration .path6:before {
@@ -6433,13 +6433,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .expensesStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .expensesStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .expensesStoryIllustration .path3:before {
@@ -6487,13 +6487,13 @@ body.mortar-wrapper {
 .mortar-wrapper .expensesStoryIllustration .path10:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .expensesStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .expensesStoryIllustration .path12:before {
@@ -6510,117 +6510,117 @@ body.mortar-wrapper {
 .mortar-wrapper .noResultsStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .noResultsStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar30StoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar30StoryIllustration .path2:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar60StoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar60StoryIllustration .path2:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar60StoryIllustration .path3:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar60StoryIllustration .path4:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar60StoryIllustration .path5:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar60StoryIllustration .path6:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar60StoryIllustration .path7:before {
     content: "";
     margin-left: -.94042969em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar60StoryIllustration .path8:before {
     content: "";
     margin-left: -.94042969em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar60StoryIllustration .path9:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar90StoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar90StoryIllustration .path2:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar90StoryIllustration .path3:before {
     content: "";
     margin-left: -.94042969em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar90StoryIllustration .path4:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .calendar90StoryIllustration .path5:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingMyMediaStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingMyMediaStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingMyMediaStoryIllustration .path3:before {
@@ -6631,13 +6631,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .fiestaStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .fiestaStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .fiestaStoryIllustration .path3:before {
@@ -6648,13 +6648,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .marketingLeadsStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingLeadsStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingLeadsStoryIllustration .path3:before {
@@ -6666,12 +6666,12 @@ body.mortar-wrapper {
 .mortar-wrapper .marketingLeadsStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingYardSignsStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingYardSignsStoryIllustration .path2:before {
@@ -6683,7 +6683,7 @@ body.mortar-wrapper {
 .mortar-wrapper .marketingYardSignsStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyAccessStoryIllustration .path1:before {
@@ -6694,19 +6694,19 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyAccessStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyAccessStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyAccessStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyEditStoryIllustration .path1:before {
@@ -6717,18 +6717,18 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyEditStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyEditStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyNoCTAStoryIllustration .path1:before {
     content: "";
-    color: #478500
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyNoCTAStoryIllustration .path2:before {
@@ -6740,18 +6740,18 @@ body.mortar-wrapper {
 .mortar-wrapper .ollApplyNoCTAStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .reviewsStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .reviewsStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .reviewsStoryIllustration .path3:before {
@@ -6768,13 +6768,13 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyListingStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyListingStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyListingStoryIllustration .path4:before {
@@ -6791,7 +6791,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .propertyVerificationStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyVerificationStoryIllustration .path2:before {
@@ -6803,7 +6803,7 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyVerificationStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .screeningStoryIllustration .path1:before {
@@ -6814,35 +6814,35 @@ body.mortar-wrapper {
 .mortar-wrapper .screeningStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .screeningStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .searchStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .searchStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .trustSafetyStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .trustSafetyStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .trustSafetyStoryIllustration .path3:before {
@@ -6859,79 +6859,79 @@ body.mortar-wrapper {
 .mortar-wrapper .userMultifamilyStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .userRenterStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userRenterStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .freeMoneyStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .freeMoneyStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .backgroundCheckStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .backgroundCheckStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .creditScoreSmallStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .creditScoreSmallStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .videoChatSmallStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .videoChatSmallStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .virtualToursStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .virtualToursStoryIllustration .path2:before {
@@ -6943,24 +6943,24 @@ body.mortar-wrapper {
 .mortar-wrapper .virtualToursStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .maintenceStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .maintenceStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .maintenceStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .maintenceStoryIllustration .path4:before {
@@ -6971,13 +6971,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .propertyFavStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyFavStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyFavStoryIllustration .path3:before {
@@ -6988,13 +6988,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .ollPaymentsStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollPaymentsStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollInsuranceStoryIllustration .path1:before {
@@ -7171,19 +7171,19 @@ body.mortar-wrapper {
 .mortar-wrapper .aboutYouHighStoryIllustration .path12:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouHighStoryIllustration .path13:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouHighStoryIllustration .path14:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path1:before {
@@ -7200,73 +7200,73 @@ body.mortar-wrapper {
 .mortar-wrapper .aboutYouLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path9:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path10:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path12:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path13:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .aboutYouLowStoryIllustration .path14:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .accessHighStoryIllustration .path1:before {
@@ -7277,7 +7277,7 @@ body.mortar-wrapper {
 .mortar-wrapper .accessHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .accessHighStoryIllustration .path3:before {
@@ -7289,41 +7289,41 @@ body.mortar-wrapper {
 .mortar-wrapper .accessHighStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .accessLightStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .accessLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .accessLightStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .accessLightStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .addHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .addHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .addHighStoryIllustration .path3:before {
@@ -7335,69 +7335,69 @@ body.mortar-wrapper {
 .mortar-wrapper .addHighStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .addLightStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .addLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .addLightStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .addLightStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .bankHighStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .bankHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .bankHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .bankLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .bankLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .bankLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar30DayHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar30DayHighStoryIllustration .path2:before {
@@ -7408,18 +7408,18 @@ body.mortar-wrapper {
 
 .mortar-wrapper .Calendar30DayLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar30DayLowStoryIllustration .path2:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayHighStoryIllustration .path2:before {
@@ -7455,13 +7455,13 @@ body.mortar-wrapper {
 .mortar-wrapper .Calendar60DayHighStoryIllustration .path7:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayHighStoryIllustration .path8:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayHighStoryIllustration .path9:before {
@@ -7472,60 +7472,60 @@ body.mortar-wrapper {
 
 .mortar-wrapper .Calendar60DayLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayLowStoryIllustration .path2:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayLowStoryIllustration .path3:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayLowStoryIllustration .path4:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayLowStoryIllustration .path5:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayLowStoryIllustration .path6:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayLowStoryIllustration .path7:before {
     content: "";
     margin-left: -.94042969em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayLowStoryIllustration .path8:before {
     content: "";
     margin-left: -.94042969em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar60DayLowStoryIllustration .path9:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar90DayHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar90DayHighStoryIllustration .path2:before {
@@ -7537,7 +7537,7 @@ body.mortar-wrapper {
 .mortar-wrapper .Calendar90DayHighStoryIllustration .path3:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar90DayHighStoryIllustration .path4:before {
@@ -7554,36 +7554,36 @@ body.mortar-wrapper {
 
 .mortar-wrapper .Calendar90DayLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar90DayLowStoryIllustration .path2:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar90DayLowStoryIllustration .path3:before {
     content: "";
     margin-left: -.94042969em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar90DayLowStoryIllustration .path4:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .Calendar90DayLowStoryIllustration .path5:before {
     content: "";
     margin-left: -.94042969em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .chatHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .chatHighStoryIllustration .path2:before {
@@ -7606,13 +7606,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .chatLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .chatLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .chatLowStoryIllustration .path3:before {
@@ -7624,7 +7624,7 @@ body.mortar-wrapper {
 .mortar-wrapper .chatLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .consentHighStoryIllustration .path1:before {
@@ -7665,7 +7665,7 @@ body.mortar-wrapper {
 .mortar-wrapper .consentHighStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .consentLowStoryIllustration .path1:before {
@@ -7694,19 +7694,19 @@ body.mortar-wrapper {
 .mortar-wrapper .consentLowStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .consentLowStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .consentLowStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .editHighStoryIllustration .path1:before {
@@ -7717,7 +7717,7 @@ body.mortar-wrapper {
 .mortar-wrapper .editHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .editHighStoryIllustration .path3:before {
@@ -7728,24 +7728,24 @@ body.mortar-wrapper {
 
 .mortar-wrapper .editLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .editLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .editLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .expensesHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .expensesHighStoryIllustration .path2:before {
@@ -7762,19 +7762,19 @@ body.mortar-wrapper {
 
 .mortar-wrapper .expensesLightStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .expensesLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .expensesLightStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .favoritesHighStoryIllustration .path1:before {
@@ -7785,7 +7785,7 @@ body.mortar-wrapper {
 .mortar-wrapper .favoritesHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .favoritesHighStoryIllustration .path3:before {
@@ -7796,24 +7796,24 @@ body.mortar-wrapper {
 
 .mortar-wrapper .favoritesLowStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .favoritesLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .favoritesLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .fiestaHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .fiestaHighStoryIllustration .path2:before {
@@ -7830,19 +7830,19 @@ body.mortar-wrapper {
 
 .mortar-wrapper .fiestaLightStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .fiestaLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .fiestaLightStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .IncomeEmploymentHighStoryIllustration .path1:before {
@@ -7859,7 +7859,7 @@ body.mortar-wrapper {
 .mortar-wrapper .IncomeEmploymentHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .IncomeEmploymentLightStoryIllustration .path1:before {
@@ -7870,18 +7870,18 @@ body.mortar-wrapper {
 .mortar-wrapper .IncomeEmploymentLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .IncomeEmploymentLightStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsHighStoryIllustration .path2:before {
@@ -7941,7 +7941,7 @@ body.mortar-wrapper {
 .mortar-wrapper .legalDocumentsHighStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsHighStoryIllustration .path12:before {
@@ -7952,67 +7952,67 @@ body.mortar-wrapper {
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path9:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path10:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .legalDocumentsLowStoryIllustration .path12:before {
@@ -8023,7 +8023,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .maintenanceHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .maintenanceHighStoryIllustration .path2:before {
@@ -8035,7 +8035,7 @@ body.mortar-wrapper {
 .mortar-wrapper .maintenanceHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .maintenanceHighStoryIllustration .path4:before {
@@ -8046,25 +8046,25 @@ body.mortar-wrapper {
 
 .mortar-wrapper .maintenanceLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .maintenanceLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .maintenanceLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .maintenanceLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .YardSignsHighStoryIllustration .path1:before {
@@ -8081,24 +8081,24 @@ body.mortar-wrapper {
 .mortar-wrapper .YardSignsHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .YardSignsLowStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .YardSignsLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .YardSignsLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingLeadsHighStoryIllustration .path1:before {
@@ -8109,7 +8109,7 @@ body.mortar-wrapper {
 .mortar-wrapper .marketingLeadsHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1.00976562em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingLeadsHighStoryIllustration .path3:before {
@@ -8126,30 +8126,30 @@ body.mortar-wrapper {
 
 .mortar-wrapper .marketingLeadsLowStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingLeadsLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1.00976562em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingLeadsLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1.00976562em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingLeadsLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1.00976562em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingMyMediaHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingMyMediaHighStoryIllustration .path2:before {
@@ -8166,24 +8166,24 @@ body.mortar-wrapper {
 
 .mortar-wrapper .marketingMyMediaLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingMyMediaLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .marketingMyMediaLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaHighStoryIllustration .path2:before {
@@ -8201,13 +8201,13 @@ body.mortar-wrapper {
 .mortar-wrapper .myMediaHighStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaHighStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaHighStoryIllustration .path6:before {
@@ -8236,60 +8236,60 @@ body.mortar-wrapper {
 
 .mortar-wrapper .myMediaLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaLowStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaLowStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaLowStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaLowStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .myMediaLowStoryIllustration .path9:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesHighStoryIllustration .path2:before {
@@ -8349,13 +8349,13 @@ body.mortar-wrapper {
 .mortar-wrapper .newLeasesHighStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesHighStoryIllustration .path12:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesHighStoryIllustration .path13:before {
@@ -8367,7 +8367,7 @@ body.mortar-wrapper {
 .mortar-wrapper .newLeasesHighStoryIllustration .path14:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesHighStoryIllustration .path15:before {
@@ -8378,7 +8378,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path2:before {
@@ -8390,61 +8390,61 @@ body.mortar-wrapper {
 .mortar-wrapper .newLeasesLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path9:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path10:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path12:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path13:before {
@@ -8456,7 +8456,7 @@ body.mortar-wrapper {
 .mortar-wrapper .newLeasesLowStoryIllustration .path14:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .newLeasesLowStoryIllustration .path15:before {
@@ -8521,12 +8521,12 @@ body.mortar-wrapper {
 .mortar-wrapper .noAppsHighStoryIllustration .path10:before {
     content: "";
     margin-left: -1.00976562em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .noAppsLightStoryIllustration:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyHighStoryIllustration .path1:before {
@@ -8543,13 +8543,13 @@ body.mortar-wrapper {
 .mortar-wrapper .ollApplyHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyHighStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyHighStoryIllustration .path5:before {
@@ -8561,19 +8561,19 @@ body.mortar-wrapper {
 .mortar-wrapper .ollApplyHighStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyHighStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyHighStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyHighStoryIllustration .path9:before {
@@ -8627,7 +8627,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollApplyHighStoryIllustration .path17:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyHighStoryIllustration .path18:before {
@@ -8644,49 +8644,49 @@ body.mortar-wrapper {
 
 .mortar-wrapper .ollApplyLowStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyLowStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyLowStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyLowStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyLowStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyLowStoryIllustration .path9:before {
@@ -8740,7 +8740,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollApplyLowStoryIllustration .path17:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyLowStoryIllustration .path18:before {
@@ -8752,7 +8752,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollApplyLowStoryIllustration .path19:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsHighStoryIllustration .path1:before {
@@ -8763,25 +8763,25 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCardsHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsHighStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsHighStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsHighStoryIllustration .path6:before {
@@ -8793,7 +8793,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCardsHighStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsHighStoryIllustration .path8:before {
@@ -8828,37 +8828,37 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCardsLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsLightStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsLightStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsLightStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsLightStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsLightStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCardsLightStoryIllustration .path8:before {
@@ -8882,7 +8882,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCardsLightStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreHighStoryIllustration .path1:before {
@@ -8899,7 +8899,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCreditScoreHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreHighStoryIllustration .path4:before {
@@ -8935,36 +8935,36 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCreditScoreHighStoryIllustration .path9:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreHighStoryIllustration .path10:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreHighStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path4:before {
@@ -8976,48 +8976,48 @@ body.mortar-wrapper {
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path9:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path10:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollCreditScoreLowStoryIllustration .path11:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollLeaseHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollLeaseHighStoryIllustration .path2:before {
@@ -9041,7 +9041,7 @@ body.mortar-wrapper {
 .mortar-wrapper .ollLeaseHighStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollLeaseHighStoryIllustration .path6:before {
@@ -9052,42 +9052,42 @@ body.mortar-wrapper {
 
 .mortar-wrapper .ollLeaseLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollLeaseLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollLeaseLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollLeaseLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollLeaseLowStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollLeaseLowStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollListingHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollListingHighStoryIllustration .path2:before {
@@ -9110,7 +9110,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .ollLlistingLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollLlistingLowStoryIllustration .path2:before {
@@ -9122,18 +9122,18 @@ body.mortar-wrapper {
 .mortar-wrapper .ollLlistingLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollLlistingLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollPaymentsHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollPaymentsHighStoryIllustration .path2:before {
@@ -9144,13 +9144,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .ollPaymentsLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollPaymentsLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollScreeningHighStoryIllustration .path1:before {
@@ -9167,29 +9167,29 @@ body.mortar-wrapper {
 .mortar-wrapper .ollScreeningHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollScreeningLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollScreeningLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollScreeningLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollSupportHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollSupportHighStoryIllustration .path2:before {
@@ -9200,13 +9200,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .ollSupportLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollSupportLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyNoCtaHighStoryIllustration .path1:before {
@@ -9223,35 +9223,35 @@ body.mortar-wrapper {
 .mortar-wrapper .ollApplyNoCtaHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyNoCtaLightStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyNoCtaLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .ollApplyNoCtaLightStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .payCreditCardHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .payCreditCardHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .payCreditCardHighStoryIllustration .path3:before {
@@ -9275,7 +9275,7 @@ body.mortar-wrapper {
 .mortar-wrapper .payCreditCardHighStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .payCreditCardHighStoryIllustration .path7:before {
@@ -9286,19 +9286,19 @@ body.mortar-wrapper {
 
 .mortar-wrapper .payCreditCardLightStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .payCreditCardLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .payCreditCardLightStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .payCreditCardLightStoryIllustration .path4:before {
@@ -9310,19 +9310,19 @@ body.mortar-wrapper {
 .mortar-wrapper .payCreditCardLightStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .payCreditCardLightStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .payCreditCardLightStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyGroupHighStoryIllustration .path1:before {
@@ -9339,24 +9339,24 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyGroupHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyGroupLowStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyGroupLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyGroupLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyHighStoryIllustration .path1:before {
@@ -9367,30 +9367,30 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyHighStoryIllustration .path2:before {
     content: "";
     margin-left: -.91015625em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyHighStoryIllustration .path3:before {
     content: "";
     margin-left: -.91015625em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyLowStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyLowStoryIllustration .path2:before {
     content: "";
     margin-left: -.91015625em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyLowStoryIllustration .path3:before {
     content: "";
     margin-left: -.91015625em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyListingHighStoryIllustration .path1:before {
@@ -9407,7 +9407,7 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyListingHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyListingHighStoryIllustration .path4:before {
@@ -9424,31 +9424,31 @@ body.mortar-wrapper {
 
 .mortar-wrapper .propertyListingLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyListingLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyListingLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyListingLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyListingLowStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyPaymentHighStoryIllustration .path1:before {
@@ -9459,7 +9459,7 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyPaymentHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyPaymentHighStoryIllustration .path3:before {
@@ -9488,13 +9488,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .propertyPaymentLowStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyPaymentLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyPaymentLowStoryIllustration .path3:before {
@@ -9523,7 +9523,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .propertyVerificationHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyVerificationHighStoryIllustration .path2:before {
@@ -9540,24 +9540,24 @@ body.mortar-wrapper {
 
 .mortar-wrapper .propertyVerificationLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyVerificationLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyVerificationLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsHighStoryIllustration .path2:before {
@@ -9575,78 +9575,78 @@ body.mortar-wrapper {
 .mortar-wrapper .propertyReportsHighStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsHighStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsHighStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsHighStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsHighStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsLowStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsLowStoryIllustration .path6:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsLowStoryIllustration .path7:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .propertyReportsLowStoryIllustration .path8:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .residentHistoryHighStoryIllustration .path1:before {
@@ -9675,7 +9675,7 @@ body.mortar-wrapper {
 .mortar-wrapper .residentHistoryHighStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .residentHistoryHighStoryIllustration .path6:before {
@@ -9692,25 +9692,25 @@ body.mortar-wrapper {
 .mortar-wrapper .residentHistoryLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .residentHistoryLightStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .residentHistoryLightStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .residentHistoryLightStoryIllustration .path5:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .residentHistoryLightStoryIllustration .path6:before {
@@ -9727,7 +9727,7 @@ body.mortar-wrapper {
 .mortar-wrapper .reviewsHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .reviewsHighStoryIllustration .path3:before {
@@ -9738,19 +9738,19 @@ body.mortar-wrapper {
 
 .mortar-wrapper .reviewsLightStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .reviewsLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .reviewsLightStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .searchNoResultsHighStoryIllustration .path1:before {
@@ -9767,24 +9767,24 @@ body.mortar-wrapper {
 .mortar-wrapper .searchNoResultsHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .searchNoResultsLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .searchNoResultsLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .searchNoResultsLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .searchHighStoryIllustration .path1:before {
@@ -9795,18 +9795,18 @@ body.mortar-wrapper {
 .mortar-wrapper .searchHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .searchLightStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .searchLightStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .trustSafetyHighStoryIllustration .path1:before {
@@ -9817,30 +9817,30 @@ body.mortar-wrapper {
 .mortar-wrapper .trustSafetyHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .trustSafetyHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .trustSafetyLowStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .trustSafetyLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .trustSafetyLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyHighStoryIllustration .path1:before {
@@ -9851,13 +9851,13 @@ body.mortar-wrapper {
 .mortar-wrapper .userMultifamilyHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyHighStoryIllustration .path4:before {
@@ -9868,30 +9868,30 @@ body.mortar-wrapper {
 
 .mortar-wrapper .userMultifamilyLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyLowStoryIllustration .path4:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .userRenterHighStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .userRenterHighStoryIllustration .path2:before {
@@ -9902,13 +9902,13 @@ body.mortar-wrapper {
 
 .mortar-wrapper .userRenterLowStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userRenterLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .virtualToursHighStoryIllustration .path1:before {
@@ -9919,30 +9919,30 @@ body.mortar-wrapper {
 .mortar-wrapper .virtualToursHighStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .virtualToursHighStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .virtualToursLowStoryIllustration .path1:before {
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .virtualToursLowStoryIllustration .path2:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .virtualToursLowStoryIllustration .path3:before {
     content: "";
     margin-left: -1em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .homesLogoWhiteStoryIllustration .path1:before {
@@ -10286,7 +10286,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .generalCityStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path2:before {
@@ -10316,156 +10316,156 @@ body.mortar-wrapper {
 .mortar-wrapper .generalCityStoryIllustration .path6:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path7:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path8:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path9:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path10:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path11:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path12:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path13:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path14:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path15:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path16:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path17:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path18:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path19:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path20:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path21:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path22:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path23:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path24:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path25:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path26:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .generalCityStoryIllustration .path27:before {
     content: "";
     margin-left: -1.04980469em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyLowAddStoryIllustration .path1:before {
     content: "";
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyLowAddStoryIllustration .path2:before {
     content: "";
     margin-left: -1.06738281em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyLowAddStoryIllustration .path3:before {
     content: "";
     margin-left: -1.06738281em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyLowAddStoryIllustration .path4:before {
     content: "";
     margin-left: -1.06738281em;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyLowAddStoryIllustration .path5:before {
@@ -10477,13 +10477,13 @@ body.mortar-wrapper {
 .mortar-wrapper .userMultifamilyLowAddStoryIllustration .path6:before {
     content: "";
     margin-left: -1.06738281em;
-    color: #77b800
+    color: #9D2235
 }
 
 .mortar-wrapper .userMultifamilyLowAddStoryIllustration .path7:before {
     content: "";
     margin-left: -1.06738281em;
-    color: #427b01
+    color: #9D2235
 }
 
 @font-face {
@@ -11864,7 +11864,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .btn:focus {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -11895,8 +11895,8 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .btn-primary {
-    background-color: #427b01;
-    border-color: #427b01;
+    background-color: #9D2235;
+    border-color: #9D2235;
     color: #fff
 }
 
@@ -11907,8 +11907,8 @@ body.mortar-wrapper {
 
 .mortar-wrapper .btn-secondary {
     background-color: #fff;
-    border-color: #427b01;
-    color: #427b01
+    border-color: #9D2235;
+    color: #9D2235
 }
 
 .mortar-wrapper .btn-secondary:hover {
@@ -11960,11 +11960,11 @@ body.mortar-wrapper {
     background-color: #fff;
     border-radius: 1rem;
     border-color: #bfbfbf;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .btn-pill:hover {
-    border-color: #427b01
+    border-color: #9D2235
 }
 
 .mortar-wrapper .btn-pill:active {
@@ -11974,9 +11974,9 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .btn-pill.selected {
-    background-color: #427b01;
+    background-color: #9D2235;
     color: #fff;
-    border-color: #427b01
+    border-color: #9D2235
 }
 
 .mortar-wrapper .btn-pill.btn-sm {
@@ -12129,7 +12129,7 @@ body.mortar-wrapper {
     transition: all .2s ease-in-out;
     font-family: StorybookIcons;
     content: "";
-    color: #427b01;
+    color: #9D2235;
     text-indent: -.0625rem;
     display: inline-block;
     visibility: visible;
@@ -12166,7 +12166,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.checkbox .checkbox-default:checked+label:before,.mortar-wrapper fieldset.checkbox .checkbox-indeterminate:checked+label:before,.mortar-wrapper fieldset.checkbox .checkbox-outline-success:checked+label:before {
-    border: .0625rem solid #427b01
+    border: .0625rem solid #9D2235
 }
 
 .mortar-wrapper fieldset.checkbox .checkbox-default:checked+label:after,.mortar-wrapper fieldset.checkbox .checkbox-indeterminate:checked+label:after,.mortar-wrapper fieldset.checkbox .checkbox-outline-success:checked+label:after {
@@ -12229,7 +12229,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper fieldset.checkbox .checkbox-outline-success:checked+label:before {
     color: #fff;
-    background-color: #427b01
+    background-color: #9D2235
 }
 
 .mortar-wrapper fieldset.checkbox .error-message {
@@ -12336,7 +12336,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.file-upload [type=file]:focus+.input-label {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7);
     background-color: #f2f9e9
@@ -12530,7 +12530,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.text-link-actions input[type=number]:focus,.mortar-wrapper fieldset.text-link-actions input[type=password]:focus,.mortar-wrapper fieldset.text-link-actions input[type=tel]:focus,.mortar-wrapper fieldset.text-link-actions input[type=text]:focus,.mortar-wrapper fieldset.text-with-button input[type=number]:focus,.mortar-wrapper fieldset.text-with-button input[type=password]:focus,.mortar-wrapper fieldset.text-with-button input[type=tel]:focus,.mortar-wrapper fieldset.text-with-button input[type=text]:focus,.mortar-wrapper fieldset.text-with-postfix input[type=number]:focus,.mortar-wrapper fieldset.text-with-postfix input[type=password]:focus,.mortar-wrapper fieldset.text-with-postfix input[type=tel]:focus,.mortar-wrapper fieldset.text-with-postfix input[type=text]:focus,.mortar-wrapper fieldset.text-with-prefix input[type=number]:focus,.mortar-wrapper fieldset.text-with-prefix input[type=password]:focus,.mortar-wrapper fieldset.text-with-prefix input[type=tel]:focus,.mortar-wrapper fieldset.text-with-prefix input[type=text]:focus,.mortar-wrapper fieldset.text input[type=number]:focus,.mortar-wrapper fieldset.text input[type=password]:focus,.mortar-wrapper fieldset.text input[type=tel]:focus,.mortar-wrapper fieldset.text input[type=text]:focus {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -12617,7 +12617,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.text-with-button .input-container input[type=number]:focus+button,.mortar-wrapper fieldset.text-with-button .input-container input[type=password]:focus+button,.mortar-wrapper fieldset.text-with-button .input-container input[type=tel]:focus+button,.mortar-wrapper fieldset.text-with-button .input-container input[type=text]:focus+button {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -12657,7 +12657,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.text-with-prefix .input-container input[type=number]:focus+span,.mortar-wrapper fieldset.text-with-prefix .input-container input[type=password]:focus+span,.mortar-wrapper fieldset.text-with-prefix .input-container input[type=tel]:focus+span,.mortar-wrapper fieldset.text-with-prefix .input-container input[type=text]:focus+span {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -12703,7 +12703,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.text-with-postfix .input-container input[type=number]:focus+span,.mortar-wrapper fieldset.text-with-postfix .input-container input[type=password]:focus+span,.mortar-wrapper fieldset.text-with-postfix .input-container input[type=tel]:focus+span,.mortar-wrapper fieldset.text-with-postfix .input-container input[type=text]:focus+span {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -12888,7 +12888,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .modal .modal-close {
-    color: #427b01;
+    color: #9D2235;
     text-decoration: none;
     font-size: 2rem;
     padding: 0;
@@ -13004,11 +13004,11 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .radio-group .radio-default:checked+label:before {
-    border: .0625rem solid #427b01
+    border: .0625rem solid #9D2235
 }
 
 .mortar-wrapper .radio-group .radio-default:checked+label:after {
-    background: #427b01
+    background: #9D2235
 }
 
 .mortar-wrapper .radio-group .radio-default:focus+label:before {
@@ -13128,7 +13128,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.text-area textarea:focus {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -13197,7 +13197,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .toggle-wrapper input.toggle:focus+label:before {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -13259,17 +13259,17 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .toggle-wrapper input.toggle:checked+label {
-    border-color: #427b01
+    border-color: #9D2235
 }
 
 .mortar-wrapper .toggle-wrapper input.toggle:checked+label:before {
-    background-color: #427b01
+    background-color: #9D2235
 }
 
 .mortar-wrapper .toggle-wrapper input.toggle:checked+label:after {
     left: 1.5625rem;
     content: "";
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .toggle-wrapper input.toggle.disabled+label,.mortar-wrapper .toggle-wrapper input.toggle:disabled+label {
@@ -13310,7 +13310,7 @@ body.mortar-wrapper {
 
 .mortar-wrapper .toggle-wrapper input.toggle-md:checked+label:after {
     left: 2.1875rem;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper mortar-toggle {
@@ -13728,7 +13728,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.range-min-max input[type=text]:focus {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -13843,7 +13843,7 @@ body.mortar-wrapper {
 .mortar-wrapper .radio-button-group>.btn:last-of-type {
     border-top-right-radius: .25rem;
     border-bottom-right-radius: .25rem;
-    border-right: .0625rem solid #427b01
+    border-right: .0625rem solid #9D2235
 }
 
 .mortar-wrapper .radio-button-group .btn-sm {
@@ -13867,9 +13867,9 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .radio-button-group input[type=radio]:checked+label {
-    background-color: #427b01;
+    background-color: #9D2235;
     color: #fff;
-    border-color: #427b01
+    border-color: #9D2235
 }
 
 .mortar-wrapper .radio-button-group input[type=radio]:checked+label,.mortar-wrapper .radio-button-group input[type=radio]:disabled+label {
@@ -13920,7 +13920,7 @@ body.mortar-wrapper {
 .mortar-wrapper mortar-radio-toggle fieldset.radio-button-group>mortar-radio-toggle-item:last-of-type .btn {
     border-top-right-radius: .25rem;
     border-bottom-right-radius: .25rem;
-    border-right: .0625rem solid #427b01
+    border-right: .0625rem solid #9D2235
 }
 
 .mortar-wrapper fieldset.dropdown {
@@ -13996,7 +13996,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.dropdown .dropdown-outer.is-focused .dropdown-inner {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -14310,7 +14310,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.mortar-datepicker .datepicker-input:focus {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -14329,7 +14329,7 @@ body.mortar-wrapper {
     bottom: 0;
     background: transparent;
     border: none;
-    color: #427b01;
+    color: #9D2235;
     font-size: 1.5rem;
     cursor: pointer;
     padding: 0 .25rem
@@ -14372,7 +14372,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.mortar-datepicker .datepicker-selector {
-    background: #427b01;
+    background: #9D2235;
     display: block;
     max-width: 100%;
     padding: .25rem .5rem
@@ -14455,7 +14455,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.mortar-datepicker .datepicker-header-next button,.mortar-wrapper fieldset.mortar-datepicker .datepicker-header-previous button {
-    color: #427b01;
+    color: #9D2235;
     padding: 0;
     background: transparent;
     border: none;
@@ -14565,8 +14565,8 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper fieldset.mortar-datepicker .datepicker-content-item.datepicker-selected {
-    border-color: #427b01;
-    background: #427b01;
+    border-color: #9D2235;
+    background: #9D2235;
     color: #fff
 }
 
@@ -14670,7 +14670,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .mortar-tabs .tabs-nav button:focus {
-    border-color: #427b01;
+    border-color: #9D2235;
     outline: none;
     box-shadow: 0 0 .25rem 0 rgba(116,183,27,.7)
 }
@@ -14685,7 +14685,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .mortar-tabs .tabs-nav button.tab-visible:after {
-    background-color: #427b01
+    background-color: #9D2235
 }
 
 .mortar-wrapper .mortar-tabs .tabs-nav button:last-child {
@@ -14771,7 +14771,7 @@ body.mortar-wrapper {
 }
 
 .mortar-wrapper .pagination-other ol li a {
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .pagination-other ol li .btn-nav {
@@ -14781,7 +14781,7 @@ body.mortar-wrapper {
     width: auto;
     min-width: auto;
     padding: 0;
-    color: #427b01
+    color: #9D2235
 }
 
 .mortar-wrapper .pagination-other ol li .btn-nav[disabled] {
@@ -14888,11 +14888,11 @@ body.mortar-wrapper {
 
 #menuNavContainer .menuNavigation li.menuNavCategory:hover {
     background-color: #fff;
-    color: #427b01
+    color: #9D2235
 }
 
 #menuNavContainer .menuNavigation li i {
-    color: #427b01;
+    color: #9D2235;
     font-size: 1.25rem;
     margin-top: -1px;
     position: absolute;
@@ -15029,7 +15029,7 @@ body.mortar-wrapper {
 
 #menuNavContainer .menuNavigation li:hover {
     cursor: pointer;
-    background-color: #427b01;
+    background-color: #9D2235;
     color: #fff
 }
 
@@ -15085,11 +15085,11 @@ body.mortar-wrapper {
 
 .culture-es #menuNavContainer .menuNavigation li.menuNavCategory:hover {
     background-color: #fff;
-    color: #77b800
+    color: #9D2235
 }
 
 .culture-es #menuNavContainer .menuNavigation li i {
-    color: #77b800;
+    color: #9D2235;
     font-size: .75rem;
     margin-top: .3125rem;
     position: absolute;
@@ -15204,7 +15204,7 @@ body.mortar-wrapper {
 
 .culture-es #menuNavContainer .menuNavigation li:hover {
     cursor: pointer;
-    background-color: #77b800;
+    background-color: #9D2235;
     color: #fff
 }
 
@@ -15483,7 +15483,7 @@ body.mortar-wrapper {
 }
 
 #mainHeader .header-switch-language-wrapper .header-is-selected-language:hover {
-    color: #427b01
+    color: #9D2235
 }
 
 #mainHeader .header-switch-language-wrapper .headerSwitchLanguage {
@@ -15497,14 +15497,14 @@ body.mortar-wrapper {
 }
 
 #mainHeader .header-switch-language-wrapper .headerSwitchLanguage:hover {
-    border-color: #427b01
+    border-color: #9D2235
 }
 
 #mainHeader .header-switch-language-wrapper .header-pill-selected {
     font-family: 'CostarBrownBold',sans-serif;
-    background-color: #427b01;
+    background-color: #9D2235;
     color: #fff;
-    border-color: #427b01
+    border-color: #9D2235
 }
 
 #mainHeader .header-switch-language-wrapper a.disabled {
@@ -15578,11 +15578,11 @@ body.mortar-wrapper {
 }
 
 #mainHeader .header-switch-currency-wrapper .header-is-selected-currency:hover {
-    color: #427b01
+    color: #9D2235
 }
 
 #mainHeader .header-switch-currency-wrapper .header-is-selected-currency:hover i .path1:before,#mainHeader .header-switch-currency-wrapper .header-is-selected-currency:hover i .path2:before {
-    color: #427b01
+    color: #9D2235
 }
 
 #mainHeader .header-switch-currency-wrapper .header-switch-currency {
@@ -15600,9 +15600,9 @@ body.mortar-wrapper {
 
 #mainHeader .header-switch-currency-wrapper .header-pill-selected {
     font-family: 'CostarBrownBold',sans-serif;
-    background-color: #427b01;
+    background-color: #9D2235;
     color: #fff;
-    border-color: #427b01
+    border-color: #9D2235
 }
 
 #mainHeader .logoSpacer {
@@ -15960,13 +15960,13 @@ body.mortar-wrapper {
 }
 
 #mainHeader .loginSection .headerSignIn:hover,#mainHeader .loginSection .headerSignUp:hover {
-    color: #427b01
+    color: #9D2235
 }
 
 #mainHeader .loginSection .headerSignIn:focus,#mainHeader .loginSection .headerSignUp:focus {
     padding: 0;
     margin: 0;
-    color: #427b01
+    color: #9D2235
 }
 
 #mainHeader .loginSection>span {
@@ -15984,7 +15984,7 @@ body.mortar-wrapper {
 #mainHeader .loginSection .primary:hover {
     background: transparent;
     border-color: transparent;
-    color: #427b01
+    color: #9D2235
 }
 
 #mainHeader .loginSection .username {
@@ -16033,7 +16033,7 @@ body.mortar-wrapper {
 }
 
 #mainHeader .loginSection .username:hover {
-    color: #427b01
+    color: #9D2235
 }
 
 #mainHeader .loginSection .username:hover .userMenu {
@@ -16041,7 +16041,7 @@ body.mortar-wrapper {
 }
 
 #mainHeader .loginSection .username .down2StoryIcon {
-    color: #427b01;
+    color: #9D2235;
     min-width: .875rem;
     font-size: 24px;
     position: relative;
@@ -16677,7 +16677,7 @@ body.mortar-wrapper {
 }
 
 .typeahead .item.active {
-    background-color: #77b800;
+    background-color: #9D2235;
     color: #fff
 }
 
@@ -16699,7 +16699,7 @@ body.mortar-wrapper {
 }
 
 #loginModal.loginModal .aptsLogoMarkIcon,#favLoginModal.loginModal .aptsLogoMarkIcon,#savedSearchLoginModal.loginModal .aptsLogoMarkIcon,#loginSocialForm.loginModal .aptsLogoMarkIcon,.confirmModal.loginModal .aptsLogoMarkIcon,#loginModal.loginSocialModal .aptsLogoMarkIcon,#favLoginModal.loginSocialModal .aptsLogoMarkIcon,#savedSearchLoginModal.loginSocialModal .aptsLogoMarkIcon,#loginSocialForm.loginSocialModal .aptsLogoMarkIcon,.confirmModal.loginSocialModal .aptsLogoMarkIcon,#loginModal.loginSocialForm .aptsLogoMarkIcon,#favLoginModal.loginSocialForm .aptsLogoMarkIcon,#savedSearchLoginModal.loginSocialForm .aptsLogoMarkIcon,#loginSocialForm.loginSocialForm .aptsLogoMarkIcon,.confirmModal.loginSocialForm .aptsLogoMarkIcon {
-    color: #77b800;
+    color: #9D2235;
     font-size: 2.5em;
     display: none;
     position: absolute
@@ -16797,7 +16797,7 @@ body.mortar-wrapper {
 }
 
 #loginModal.loginModal .modalHeader.saveYourData,#createAccountModal.loginModal .modalHeader.saveYourData,#confirmEmailModal.loginModal .modalHeader.saveYourData,#loginModal.createAccountModal .modalHeader.saveYourData,#createAccountModal.createAccountModal .modalHeader.saveYourData,#confirmEmailModal.createAccountModal .modalHeader.saveYourData,#loginModal.loginSocialModal .modalHeader.saveYourData,#createAccountModal.loginSocialModal .modalHeader.saveYourData,#confirmEmailModal.loginSocialModal .modalHeader.saveYourData {
-    background-color: #77b800;
+    background-color: #9D2235;
     padding-bottom: .125em!important
 }
 
@@ -16814,7 +16814,7 @@ body.mortar-wrapper {
 }
 
 #loginModal.loginModal .modalHeader.saveYourData .signUpSection .signUpBtn:hover,#createAccountModal.loginModal .modalHeader.saveYourData .signUpSection .signUpBtn:hover,#confirmEmailModal.loginModal .modalHeader.saveYourData .signUpSection .signUpBtn:hover,#loginModal.createAccountModal .modalHeader.saveYourData .signUpSection .signUpBtn:hover,#createAccountModal.createAccountModal .modalHeader.saveYourData .signUpSection .signUpBtn:hover,#confirmEmailModal.createAccountModal .modalHeader.saveYourData .signUpSection .signUpBtn:hover,#loginModal.loginSocialModal .modalHeader.saveYourData .signUpSection .signUpBtn:hover,#createAccountModal.loginSocialModal .modalHeader.saveYourData .signUpSection .signUpBtn:hover,#confirmEmailModal.loginSocialModal .modalHeader.saveYourData .signUpSection .signUpBtn:hover {
-    color: #77b800;
+    color: #9D2235;
     background-color: #fff;
     border-color: #fff
 }
@@ -16825,7 +16825,7 @@ body.mortar-wrapper {
 
 #loginModal.loginModal .modalHeader.saveYourData .labelledHr:before,#createAccountModal.loginModal .modalHeader.saveYourData .labelledHr:before,#confirmEmailModal.loginModal .modalHeader.saveYourData .labelledHr:before,#loginModal.createAccountModal .modalHeader.saveYourData .labelledHr:before,#createAccountModal.createAccountModal .modalHeader.saveYourData .labelledHr:before,#confirmEmailModal.createAccountModal .modalHeader.saveYourData .labelledHr:before,#loginModal.loginSocialModal .modalHeader.saveYourData .labelledHr:before,#createAccountModal.loginSocialModal .modalHeader.saveYourData .labelledHr:before,#confirmEmailModal.loginSocialModal .modalHeader.saveYourData .labelledHr:before {
     color: #fff;
-    background: #77b800
+    background: #9D2235
 }
 
 #loginModal.loginModal li,#createAccountModal.loginModal li,#confirmEmailModal.loginModal li,#loginModal.createAccountModal li,#createAccountModal.createAccountModal li,#confirmEmailModal.createAccountModal li,#loginModal.loginSocialModal li,#createAccountModal.loginSocialModal li,#confirmEmailModal.loginSocialModal li {
@@ -16876,7 +16876,7 @@ body.mortar-wrapper {
 }
 
 #loginModal.loginModal h2,#favLoginModal.loginModal h2,#savedSearchLoginModal.loginModal h2,#loginSocialForm.loginModal h2,.confirmModal.loginModal h2,#loginModal.loginSocialModal h2,#favLoginModal.loginSocialModal h2,#savedSearchLoginModal.loginSocialModal h2,#loginSocialForm.loginSocialModal h2,.confirmModal.loginSocialModal h2,#loginModal.loginSocialForm h2,#favLoginModal.loginSocialForm h2,#savedSearchLoginModal.loginSocialForm h2,#loginSocialForm.loginSocialForm h2,.confirmModal.loginSocialForm h2 {
-    color: #77b800;
+    color: #9D2235;
     font-size: 2em;
     text-align: center
 }
@@ -17031,7 +17031,7 @@ body.mortar-wrapper {
 }
 
 .text-green {
-    color: #77b800
+    color: #9D2235
 }
 
 #loginModal.loginSocialModal .modalContainer,#savedSearchLoginModal.loginSocialModal .modalContainer,#confirmEmailModal.loginSocialModal .modalContainer,#loginSocialForm.loginSocialModal .modalContainer,#loginModal.loginSocialForm .modalContainer,#savedSearchLoginModal.loginSocialForm .modalContainer,#confirmEmailModal.loginSocialForm .modalContainer,#loginSocialForm.loginSocialForm .modalContainer {
@@ -17711,7 +17711,7 @@ body.mortar-wrapper {
 }
 
 #authContainer .apartmentsLogoStoryIllustration {
-    color: #77b800;
+    color: #9D2235;
     font-size: 2.5em;
     position: absolute
 }
