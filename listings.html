@@ -2,60 +2,77 @@
 <html>
 <head>
 <style>
-body {
-  margin: 0; /* Set the left and right margins to 0 */
+ body {
+  margin: 0;
   padding: 0;
-  box-sizing: border-box; /* This includes padding and border in the element's total width and height */
+  box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Specify a default font */
 }
+
+/* The .container class will hold our flex items */
 .container {
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  justify-content: space-between; /* Distributes spacing evenly between items */
+  padding: 20px; /* Adds padding around the entire container */
 }
 
+/* This class styles each property card link */
 .property-link {
-  margin: 10px; /* Set a margin for all property listings */
-  text-decoration: none; /* Remove underline for links */
-  color: black !important; /* Set the text color to black */
+  text-decoration: none; /* Removes underline from links */
+  color: black; /* Sets the text color of the links */
+  flex: 0 1 calc(33.333% - 40px); /* Allow the boxes to grow and shrink a bit */
+  margin: 10px; /* Margin for spacing */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adds a shadow for depth */
 }
 
+/* This class adds a border and padding around each card */
 .border {
   border: 1px solid black;
   padding: 10px;
-  width: 320px; /* Set a fixed width for all property listings */
-  height: 350px; /* Set a fixed height for all property listings */
-  position: relative;
-  cursor: pointer; /* Change cursor to a hand pointer */
-  transition: box-shadow 0.3s, transform 0.3s; /* Combine transitions into one line */
+  background-color: white; /* Ensures cards have a white background */
 }
 
+/* Ensures images take up the full width of their container and maintain their aspect ratio */
 img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
+  width: 100%;
   height: auto;
-}
-.text {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
- /* Center the text horizontally */
-.center-text {
-  text-align: center;
-}
-.walk-info {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 16px;
+  display: block; /* Ensures there are no extra spaces around the image */
+  border-bottom: 1px solid #ddd; /* Adds a slight separation between the image and text */
 }
 
+/* Centers text and adds spacing */
+.text, .walk-info {
+  text-align: center;
+  padding: 4px 0;
+}
+
+/* Styles the walking information with an icon and text */
+.walk-info {
+  display: flex;
+  justify-content: center; /* Centers the walk info */
+  align-items: center; /* Aligns items vertically */
+  font-size: 16px; /* Sets the font size */
+}
+
+/* Increases the size of the walking symbol */
 .walk-symbol {
   font-size: 20px;
+  margin-right: 5px; /* Adds spacing between the symbol and text */
 }
-/* Raise the box shadow and scale the element on hover */
-.property-link .border:hover {
-  box-shadow: 0 0 20px 5px lightblue; /* Adjust the values as needed to raise the shadow */
-  transform: scale(1.05); /* Adjust the scaling factor as needed */
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  .property-link {
+    flex: 0 1 calc(50% - 40px); /* Adjusts to 2 cards per row on medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .property-link {
+    flex: 0 1 100%; /* Stacks cards on small screens */
+    margin: 10px 0; /* Adds space between stacked cards */
+  }
 }
 
 </style>

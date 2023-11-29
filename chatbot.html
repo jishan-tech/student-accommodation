@@ -60,7 +60,7 @@ body.show-chatbot .chatbot-toggler span:last-child {
     position: fixed;
     left: 35%; /* Center the chatbox horizontally */
     transform: translateX(-50%); /* Center the chatbox horizontally */
-    bottom: 90px;
+    bottom: 70px;
     width: 420px;
     height:80%;
     background: #fff;
@@ -215,48 +215,14 @@ header h2 {
 
 </head>
 <body class="show-chatbot"> <!-- Add the class to show the chatbox initially -->
-
-  <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="index.html">UARK Student Accommodation</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link" href="listings.html" target="blank">Listings</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="roomates.html" target="blank">Find a Roomate</a>
-              </li>
-              <li class="nav-item active">
-                  <a class="nav-link" href="forum.html" target="blank">Forum</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="roommates.html" target="blank">Find Roommates</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="feedback.html" target ="blank">Feedback</a>
-              </li>
-          </ul>
-          <ul class="navbar-nav">
-              <li class="nav-item">
-                  <form class="example" action="/action_page.php">
-                      <input type="text" placeholder="Search.." name="search2">
-                      <button type="submit"><i class="fa fa-search"></i></button>
-                  </form>
-              </li>
-          <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="btn btn-outline-light mr-2" href="signin.html" target ="blank">Sign In</a>
-              </li>
-              <li class="nav-item">
-                  <a class="btn btn-outline-light" href="signup.html" target ="blank">Sign Up</a>
-              </li>
-          </ul>
-      </div>
-  </nav>
-
+<!-- Do not delete this extends the navbar -->
+<div id="navbar"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(function(){
+        $("#navbar").load("navbar.html");
+    });
+</script>
 <div class="chatbot">
     <header>
         <h2>UARK CHATBOT</h2>
